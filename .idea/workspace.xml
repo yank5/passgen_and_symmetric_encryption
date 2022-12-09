@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="963c1dcf-0337-4047-9be3-ae81e8bab9ac" name="Changes" comment="not finished">
+    <list default="true" id="963c1dcf-0337-4047-9be3-ae81e8bab9ac" name="Changes" comment="finished version. not truly random password gen. but works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -26,7 +26,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last.edited.regexp&quot;: &quot;&quot;
   }
 }</component>
   <component name="RunManager">
@@ -52,7 +53,11 @@
       <option name="presentableId" value="Default" />
       <updated>1669048528496</updated>
       <workItem from="1669048530571" duration="7722000" />
-      <workItem from="1669134265238" duration="7447000" />
+      <workItem from="1669134265238" duration="7817000" />
+      <workItem from="1669651712165" duration="4000" />
+      <workItem from="1670268382192" duration="1569000" />
+      <workItem from="1670598205216" duration="55000" />
+      <workItem from="1670598304509" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="not finished">
       <created>1669052650739</created>
@@ -61,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669052650739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished version. not truly random password gen. but works">
+      <created>1669138408552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669138408552</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="not finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="not finished" />
+    <MESSAGE value="finished version. not truly random password gen. but works" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished version. not truly random password gen. but works" />
   </component>
 </project>

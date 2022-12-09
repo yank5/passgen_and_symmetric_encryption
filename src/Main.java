@@ -4,8 +4,9 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         int count=1;
         do{
-            System.out.print("\nenter a new password: ");
-            String passIn = scan.next();
+            System.out.println("Password strength tester.\n");
+            System.out.print("\nenter your password password: ");
+            String passIn=scan.next();
             boolean leng=passIn.length()>=8;
             boolean uppers=passIn.matches(".*[QWERTYUIOPASDFGHJKLZXCVBNM]+.*");
             boolean nums=passIn.matches(".*[1234567890]+.*");
@@ -13,9 +14,8 @@ public class Main {
             boolean specials=passIn.matches(".*[!@#$%^&*?]+.*");
 
             if(count%5==0){
-                System.out.println("Do you want me to make you a password? (Y/N)");
+                System.out.println("Do you want me to make you a strong password? (Y/N)");
                 passIn = scan.next();
-
                 if(passIn.contains("Y")||passIn.contains("y")){
                     System.out.println(passGen());
                     break;
@@ -43,6 +43,15 @@ public class Main {
         }while(true);
         }
 
+    /** Password generator
+     * @author yan
+     * <p>
+     * Uses {@link java.lang.Math#random()} to generate 1 random number from range 32-94 utf8. Only readable characters are included.
+     * Loops passLen times, as the user decides, adding the generated character to the string each time.
+     * Numbers are then converted to char and added to eachother by {@link java.lang.String} to combine the char's into 1 string
+     *
+     * @return Generated password in String form
+     */
     public static String passGen(){
         Scanner scan = new Scanner(System.in);
         System.out.println("What length should the password be? ");
@@ -53,7 +62,7 @@ public class Main {
             char ranChar= (char) rand;
             password+=ranChar;
         }
-        System.out.println("This password may not fit the requirements as it is random\nBut it is a very good password\n");
+        System.out.println("This is a good password. Not truly random so please restart the program when generating new password\n");
         return "password: "+password;
     }
     }
