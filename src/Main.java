@@ -42,16 +42,6 @@ public class Main {
 
         }while(true);
         }
-
-    /** Password generator
-     * @author yan
-     * <p>
-     * Uses {@link java.lang.Math#random()} to generate 1 random number from range 32-94 utf8. Only readable characters are included.
-     * Loops passLen times, as the user decides, adding the generated character to the string each time.
-     * Numbers are then converted to char and added to eachother by {@link java.lang.String} to combine the char's into 1 string
-     *
-     * @return Generated password in String form
-     */
     public static String passGen(){
         Scanner scan = new Scanner(System.in);
         System.out.println("What length should the password be? ");
