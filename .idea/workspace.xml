@@ -4,8 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="963c1dcf-0337-4047-9be3-ae81e8bab9ac" name="Changes" comment="finished version. not truly random password gen. but works">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="963c1dcf-0337-4047-9be3-ae81e8bab9ac" name="Changes" comment="w">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -13,6 +13,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +38,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last.edited.regexp": ""
   }
@@ -64,6 +72,7 @@
       <workItem from="1670598205216" duration="55000" />
       <workItem from="1670598304509" duration="3000" />
       <workItem from="1670605906691" duration="690000" />
+      <workItem from="1670705746824" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="not finished">
       <created>1669052650739</created>
@@ -86,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670605954090</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="w">
+      <created>1670705863156</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670705863156</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="not finished" />
     <MESSAGE value="finished version. not truly random password gen. but works" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished version. not truly random password gen. but works" />
+    <MESSAGE value="w" />
+    <option name="LAST_COMMIT_MESSAGE" value="w" />
   </component>
 </project>
