@@ -15,11 +15,6 @@ public class Crypt {
 
     public void encrypt(){
         System.out.println("encrypt");
-//        int i = 0b000001^0b000010;
-//        System.out.println(Integer.reverseBytes(5));
-//        System.out.println(Integer.reverseBytes(83886080));
-
-
 
         String orig=text; //original message
         var g=orig.split("");
@@ -38,7 +33,7 @@ public class Crypt {
             binString+=" ";
         }
 
-        System.out.println("binstring:\n"+binString);
+//        System.out.println("binstring:\n"+binString);
 
         String[] tee=binString.split(" "); //USE TEE AS NEW STRING ARRAY
 
@@ -61,10 +56,9 @@ public class Crypt {
             binString+=l;
         }
 
-        System.out.println("padded binstring:\n"+binString);
+//        System.out.println("padded binstring:\n"+binString);
 
         preGen=binString;
-
 
         keyGen();
 
@@ -79,31 +73,6 @@ public class Crypt {
         }
 
         System.out.println(teststring); //encrypted text
-//
-//
-//
-//        var qq=teststring.toCharArray(); //encrypted text
-//
-//        System.out.println("text decrypted (equal to binstring)");
-//        StringBuilder decryp= new StringBuilder();
-//
-//        for(int p=0;p<x.length;++p){// TEXT DECRYPT
-//            System.out.print(qq[p]^y[p]);
-//            decryp.append(qq[p]^y[p]);
-//        }
-//
-//        var decrypS=decryp.toString();
-//
-//        String[] finalarray=decrypS.split("(?<=\\G.{" + 8 + "})");
-//
-////        System.out.println("\nfinal array length "+finalarray.length);
-//        System.out.println("\ntext decrypted in char form");
-//        for (int u=0;u<finalarray.length;u++) {
-//            System.out.print((char)Long.parseLong(finalarray[u],2));
-//        }
-        //"(?<=\\G.{" + n + "})"
-
-
     }
     public void decrypt() {
         var x = text;
@@ -128,6 +97,10 @@ public class Crypt {
             System.out.print(g);
             key+=g;
         }
+//        var testKey=key.split("(?<=\\G.{" + 8 + "})");
+//        for (int u = 0; u < testKey.length; u++) {
+//            System.out.print((char) Long.parseLong(testKey[u], 2));
+//        }
         System.out.println();
     }
 }
