@@ -4,13 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="963c1dcf-0337-4047-9be3-ae81e8bab9ac" name="Changes" comment="save">
-      <change afterPath="$PROJECT_DIR$/src/Crypt.java" afterDir="false" />
+    <list default="true" id="963c1dcf-0337-4047-9be3-ae81e8bab9ac" name="Changes" comment="half working state">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encryptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Crypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Crypt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PassGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PassGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last.edited.regexp": ""
+    "last.edited.regexp": "",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RunManager">
@@ -75,7 +74,8 @@
       <workItem from="1670598205216" duration="55000" />
       <workItem from="1670598304509" duration="3000" />
       <workItem from="1670605906691" duration="690000" />
-      <workItem from="1670705746824" duration="14017000" />
+      <workItem from="1670705746824" duration="21365000" />
+      <workItem from="1670773113332" duration="22144000" />
     </task>
     <task id="LOCAL-00001" summary="not finished">
       <created>1669052650739</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670708120740</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="half working state">
+      <created>1670722595865</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670722595865</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +141,7 @@
     <MESSAGE value="finished version. not truly random password gen. but works" />
     <MESSAGE value="w" />
     <MESSAGE value="save" />
-    <option name="LAST_COMMIT_MESSAGE" value="save" />
+    <MESSAGE value="half working state" />
+    <option name="LAST_COMMIT_MESSAGE" value="half working state" />
   </component>
 </project>

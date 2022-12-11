@@ -32,7 +32,7 @@ public class Main {
                 System.out.print("Type in the text you would like to decrypt: ");
                 String x = scan.nextLine();
                 System.out.print("Paste the encryption key here: ");
-                long y = scan.nextLong();
+                String y = scan.nextLine();
                 Crypt crypt1 = new Crypt(x, y);
                 crypt1.decrypt();
             }

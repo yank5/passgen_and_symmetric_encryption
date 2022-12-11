@@ -12,7 +12,7 @@ public class PassGen {
         return "password: " + password;
     }
     private void helper(){
-        for (int i = 0; i < passLen; i++) {
+        for (int i=0;i<passLen;++i) {
             int rand = (int) ((Math.random() * 94) + 32);
             char ranChar = (char) rand;
             password += ranChar;
