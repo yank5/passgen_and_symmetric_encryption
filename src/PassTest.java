@@ -5,7 +5,6 @@ public class PassTest {
     }
     public void passTest() {
         Scanner scan = new Scanner(System.in);
-        PassGen passgen = new PassGen();
         System.out.print("\nWelcome to password tester\n");
         for (;true;) { //nested iteration I guess
             for (; true; ) {
@@ -23,7 +22,9 @@ public class PassTest {
                         passIn = scan.next();
                         if (passIn.contains("Y") || passIn.contains("y")) {
                             System.out.println("What length should the password be? ");
-                            System.out.println(passgen.passGen(scan.nextShort()));
+                            int test=scan.nextInt();
+                            PassGen passgen = new PassGen();
+                            System.out.println(passgen.passGen(test));
                             break;
                         }
                         count++;
