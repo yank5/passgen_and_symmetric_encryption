@@ -4,7 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="963c1dcf-0337-4047-9be3-ae81e8bab9ac" name="Changes" comment="broken test" />
+    <list default="true" id="963c1dcf-0337-4047-9be3-ae81e8bab9ac" name="Changes" comment="worko for presentation">
+      <change beforePath="$PROJECT_DIR$/src/Crypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Crypt.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670804750538</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="worko for presentation">
+      <created>1670864242904</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670864242904</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +174,7 @@
     <MESSAGE value="NO FING WAY IT WORKS. SAVE" />
     <MESSAGE value="working final, encrypted text and encryption KEY are in binary form for the moment. it works for encrypting and decrypting so making the KEY and text be in string/readable form doesn't matter." />
     <MESSAGE value="broken test" />
-    <option name="LAST_COMMIT_MESSAGE" value="broken test" />
+    <MESSAGE value="worko for presentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="worko for presentation" />
   </component>
 </project>

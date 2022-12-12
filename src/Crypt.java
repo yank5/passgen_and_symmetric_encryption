@@ -42,13 +42,25 @@ public class Crypt {
 
         for(int r=0;r<tee.length;r++){ //make sure they are all the same length with padding leading zeros
             String temp="";
-            if(tee[r].length()<6){
+            if(tee[r].length()<2){
+                temp=tee[r];
+                tee[r]="0000000"+temp;
+            } else if (tee[r].length()<3) {
+                temp=tee[r];
+                tee[r]="000000"+temp;
+            } else if (tee[r].length()<4){
+                temp=tee[r];
+                tee[r]="00000"+temp;
+            }else if (tee[r].length()<5){
+                temp=tee[r];
+                tee[r]="0000"+temp;
+            }else if (tee[r].length()<6){
                 temp=tee[r];
                 tee[r]="000"+temp;
-            } else if (tee[r].length()<7) {
+            }else if (tee[r].length()<7){
                 temp=tee[r];
                 tee[r]="00"+temp;
-            } else if (tee[r].length()<8){
+            }else if (tee[r].length()<8){
                 temp=tee[r];
                 tee[r]="0"+temp;
             }
