@@ -4,7 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="963c1dcf-0337-4047-9be3-ae81e8bab9ac" name="Changes" comment="NO FING WAY IT WORKS. SAVE">
+    <list default="true" id="963c1dcf-0337-4047-9be3-ae81e8bab9ac" name="Changes" comment="working final, encrypted text and encryption KEY are in binary form for the moment. it works for encrypting and decrypting so making the KEY and text be in string/readable form doesn't matter.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Crypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Crypt.java" afterDir="false" />
     </list>
@@ -73,7 +73,7 @@
       <workItem from="1670598304509" duration="3000" />
       <workItem from="1670605906691" duration="690000" />
       <workItem from="1670705746824" duration="21365000" />
-      <workItem from="1670773113332" duration="24320000" />
+      <workItem from="1670773113332" duration="28342000" />
     </task>
     <task id="LOCAL-00001" summary="not finished">
       <created>1669052650739</created>
@@ -124,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670796580198</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="working final, encrypted text and encryption KEY are in binary form for the moment. it works for encrypting and decrypting so making the KEY and text be in string/readable form doesn't matter.">
+      <created>1670798973131</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670798973131</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +155,7 @@
     <MESSAGE value="save" />
     <MESSAGE value="half working state" />
     <MESSAGE value="NO FING WAY IT WORKS. SAVE" />
-    <option name="LAST_COMMIT_MESSAGE" value="NO FING WAY IT WORKS. SAVE" />
+    <MESSAGE value="working final, encrypted text and encryption KEY are in binary form for the moment. it works for encrypting and decrypting so making the KEY and text be in string/readable form doesn't matter." />
+    <option name="LAST_COMMIT_MESSAGE" value="working final, encrypted text and encryption KEY are in binary form for the moment. it works for encrypting and decrypting so making the KEY and text be in string/readable form doesn't matter." />
   </component>
 </project>

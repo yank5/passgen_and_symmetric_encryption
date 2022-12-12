@@ -56,7 +56,7 @@ public class Crypt {
             binString+=l;
         }
 
-//        System.out.println("padded binstring:\n"+binString);
+        System.out.println("padded binstring:\n"+binString);
 
         preGen=binString;
 
@@ -67,19 +67,26 @@ public class Crypt {
 //        System.out.println("DEBUG BINSTRING "+binString);
         var y=key.toCharArray();
         var teststring="";
-        System.out.println("text encrypted");
+        System.out.println("text encrypted:");
         for(int p=0;p<x.length;++p){ //XOR ENCRYPT WORKING LETS GOOOOOOOOO
             teststring+=(x[p]^y[p]);
         }
+        System.out.print(teststring+"\nencrypted text readable form:\n"); //encrypted text
 
-        System.out.println(teststring); //encrypted text
+        var testStr=teststring.split("(?<=\\G.{" + 8 + "})");//splits binary string into 8 blocks.
+        for (int u = 0; u < testStr.length; u++) {
+            System.out.print((char) Long.parseLong(testStr[u], 2));//for each item in the array it decodes it into chars
+        }
     }
+
+
+
+
     public void decrypt() {
-        var x = text;
         var qq = text.toCharArray();
         var y = key.toCharArray();
         StringBuilder decryp = new StringBuilder();
-        for (int p = 0; p < x.length(); ++p) {// TEXT DECRYPT
+        for (int p = 0; p < text.length(); ++p) {// TEXT DECRYPT
 //            System.out.print(qq[p] ^ y[p]);
             decryp.append(qq[p] ^ y[p]);
         }
@@ -97,10 +104,13 @@ public class Crypt {
             System.out.print(g);
             key+=g;
         }
-//        var testKey=key.split("(?<=\\G.{" + 8 + "})");
-//        for (int u = 0; u < testKey.length; u++) {
-//            System.out.print((char) Long.parseLong(testKey[u], 2));
-//        }
+
+
+        System.out.println("\nkey in readable form");
+        var testKey=key.split("(?<=\\G.{" + 8 + "})");//splits binary string into 8 blocks.
+        for (int u = 0; u < testKey.length; u++) {
+            System.out.print((char) Long.parseLong(testKey[u], 2));//for each item in the array it decodes it into chars
+        }
         System.out.println();
     }
 }
