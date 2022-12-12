@@ -36,7 +36,7 @@ public class Crypt {
 
 
 
-//        System.out.println("binstring:\n"+binString);
+        System.out.println("binary string:\n"+binString);
 
         String[] tee=binString.split(" "); //USE TEE AS NEW STRING ARRAY
 
