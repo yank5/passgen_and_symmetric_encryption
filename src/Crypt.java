@@ -71,7 +71,7 @@ public class Crypt {
             binString+=l;
         }
 
-//        System.out.println("padded binstring:\n"+binString);
+        System.out.println("padded binary string:\n"+binString);
 
         preGen=binString;
 
